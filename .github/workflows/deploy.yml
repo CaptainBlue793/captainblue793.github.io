@@ -18,9 +18,9 @@ jobs:
     steps:
       - name: Check out source
         uses: actions/checkout@v6
-	with:
-	  repository: CaptainBlue793/DevDen
-	  ref: main
+        with:
+          repository: CaptainBlue793/DevDen
+          ref: main
       - name: Set up Node.js
         uses: actions/setup-node@v6
         with:
